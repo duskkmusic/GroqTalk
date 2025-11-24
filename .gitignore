@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Environment / Secrets
+.env
+.env.*.local
+
+# Database
+*.sqlite3
+pgdata/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Mac / Linux
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+.tox/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# JetBrains
+*.iml
+*.iws
+*.ipr
+
+# Migrations (opcional, se você não quer versionar)
+migrations/
